@@ -1,0 +1,22 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:best-practices"],
+	"prConcurrentLimit": 3,
+	"dependencyDashboardAutoclose": true,
+	"minimumReleaseAge": "3 days",
+	"addLabels": ["dependencies"],
+	"schedule": ["on Friday"],
+	"packageRules": [
+		{
+			"groupName": "linting",
+			"matchPackageNames": [
+				"/prettier-plugin/",
+				"/oxlint/",
+				"/eslint/",
+				"publint",
+				"knip",
+				"svelte-check"
+			]
+		}
+	]
+}

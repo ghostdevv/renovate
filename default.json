@@ -1,6 +1,17 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:best-practices", ":pinOnlyDevDependencies"],
+	"extends": [
+		"config:best-practices",
+		":pinOnlyDevDependencies",
+		"group:codemirror",
+		"group:fortawesome",
+		"group:githubArtifactActions",
+		"group:pnpm",
+		"group:postcss",
+		"group:remark",
+		"group:test",
+		"group:vite"
+	],
 	"prConcurrentLimit": 3,
 	"dependencyDashboardAutoclose": true,
 	"minimumReleaseAge": "3 days",

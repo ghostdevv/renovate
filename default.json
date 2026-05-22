@@ -8,14 +8,16 @@
 	"schedule": ["on Friday"],
 	"packageRules": [
 		{
-			"groupName": "linting",
+			"groupName": "linters",
+			"extends": ["packages:linters"],
 			"matchPackageNames": [
 				"/prettier-plugin/",
 				"/oxlint/",
 				"/eslint/",
 				"publint",
 				"knip",
-				"svelte-check"
+				"svelte-check",
+				"/biome/"
 			]
 		}
 	]

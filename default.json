@@ -26,7 +26,8 @@
 				"publint",
 				"knip",
 				"svelte-check",
-				"/biome/"
+				"/biome/",
+				"@rlly/pedantic"
 			]
 		}
 	]

@@ -12,8 +12,6 @@
 		"group:test",
 		"group:vite"
 	],
-	"prConcurrentLimit": 3,
-	"dependencyDashboardAutoclose": true,
 	"minimumReleaseAge": "3 days",
 	"addLabels": ["dependencies"],
 	"schedule": ["on Friday"],

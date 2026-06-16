@@ -1,9 +1,15 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": ["github>ghostdevv/renovate"],
-	"prConcurrentLimit": 3,
 	"dependencyDashboardAutoclose": true,
-	"lockFileMaintenance": {
-		"enabled": false
+	"lockFileMaintenance": { "enabled": false },
+	"patch": {
+		"prCreation": "approval"
+	},
+	"minor": {
+		"prCreation": "approval"
+	},
+	"major": {
+		"schedule": ["* * 1 * *"]
 	}
 }

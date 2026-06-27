@@ -13,13 +13,13 @@ For public or important projects.
 }
 ```
 
-## Personal
+## Maintenance
 
-For personal projects, or those with lower volume updates.
+For projects that aren't super active and don't need frequent non-security dependency updates.
 
 ```json
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["github>ghostdevv/renovate:personal"]
+	"extends": ["github>ghostdevv/renovate:maintenance"]
 }
 ```

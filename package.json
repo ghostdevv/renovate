@@ -4,7 +4,7 @@
 	"scripts": {
 		"check": "renovate-config-validator default.json renovate.json"
 	},
-	"packageManager": "pnpm@11.15.0",
+	"packageManager": "pnpm@11.15.1",
 	"devDependencies": {
 		"renovate": "43.270.1"
 	}
